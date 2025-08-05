@@ -8,8 +8,6 @@ A Python tool to compare two or more regular expressions for language equivalenc
 - Converts regexes into NFA → DFA using the `automata` library.
 - Determines language equivalence.
 - Provides a counterexample string if they differ.
-- Optional CLI interface (future work).
-- Includes unit tests (optional: add `pytest` support).
 
 ## How It Works
 

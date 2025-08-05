@@ -26,14 +26,6 @@ def find_counterexample(dfa1, dfa2):
 
 
 def main():
-    # RE Input Section
-    #n = 2
-    #regex1 = "(b|ab)*"
-    #regex2 = "((a|())bb*)*"
-    #regexes = []
-    #regexes.append(regex1)
-    #regexes.append(regex2)
-
     # RE Input with Terminal
     n = int(input("Enter the number of regular expressions: "))
     regexes = [input(f"Enter regular expression {i + 1}: ") for i in range(n)]
